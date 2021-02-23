@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hungry Monster</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="text-center">Hungry Monster</h1>
+      <!-- Food Search area -->
+      <div class="search-area text-center">
+
+            <input id="searchInput" type="text" placeholder="Search for Meal..." />
+        <button onclick="clickForSearch()">Search</button>
+      </div>
+
+
+      <!-- Error Area -->
+      <div id="errorHandleArea"></div>
+      <!-- Details Result area -->
+      <div id="detailsArea">
+        <div id="item-details" class="item-details"></div>
+      </div>
+      <!-- Search items area -->
+      <div id="food-items" class="food-items text-center"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
